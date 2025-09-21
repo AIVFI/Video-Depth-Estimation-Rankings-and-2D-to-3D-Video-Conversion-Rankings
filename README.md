@@ -1,21 +1,20 @@
 # <p align=center>Video Depth Estimation Rankings<br />and 2D to 3D Video Conversion Rankings</p>
 
 ## Awesome Synthetic RGB-D Image Datasets for Training HD Video Depth Estimation Models
-📝 **Note:** As an exception, I recommend one and only one image dataset, due to its size: 700K scenes and the incredible improvement in depth estimation results of the fine-tuned Depth Anything V2 ViT-B model on MegaSynth and evaluated on Hypersim. See the results in [Table 6](https://openaccess.thecvf.com/content/CVPR2025/html/Jiang_MegaSynth_Scaling_Up_3D_Scene_Reconstruction_with_Synthesized_Data_CVPR_2025_paper.html).
+As an exception, I recommend one dataset, due to its huge size: 700K scenes and the incredible improvement in depth estimation results of the fine-tuned Depth Anything V2 ViT-B model on MegaSynth and evaluated on Hypersim. See the results in [Table 6](https://openaccess.thecvf.com/content/CVPR2025/html/Jiang_MegaSynth_Scaling_Up_3D_Scene_Reconstruction_with_Synthesized_Data_CVPR_2025_paper.html).
 |  | Dataset | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Resolution |
 |:---:|:---:|:---:|:---:|
 | 1 | **[MegaSynth](https://hwjiang1510.github.io/MegaSynth/)** | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Jiang_MegaSynth_Scaling_Up_3D_Scene_Reconstruction_with_Synthesized_Data_CVPR_2025_paper.html) | **512×512** |
 
-## Awesome Synthetic RGB-D Video Datasets for Training HD Video Depth Estimation Models
-📝 **Note 1:** Do not use the SYNTHIA-Seqs dataset for training HD video depth estimation models! The depth maps in this dataset do not match the corresponding RGB images. This is particularly evident in the example of tree leaves:  
-`SYNTHIA-SEQS-01-SPRING\Depth\Stereo_Left\Omni_F\000071.png`  
-`SYNTHIA-SEQS-01-SPRING\RGB\Stereo_Left\Omni_F\000071.png`.  
-📝 **Note 2:** Do not use the DigiDogs dataset for training HD video depth estimation models! The depth maps in this dataset do not match the corresponding RGB images. See the objects behind the campfire, the shifting position of the vegetation on the left and the clear banding on the depth map:  
-`DigiDogs2024_full\09_22_2022\00054\images\img_00012.tiff`.  
-📝 **Note 3:** Check before use the SynDrone dataset for training HD video depth estimation models! The depth maps in this dataset have large white areas of unknown depth, which should not happen with a synthetic dataset. Example depth map:  
-`Town01_Opt_120_depth\Town01_Opt_120\ClearNoon\height20m\depth\00031.png`.  
-📝 **Note 4:** Check before use the Aria Synthetic Environments dataset for training HD video depth estimation models! The depth maps in this dataset have large white areas of unknown depth, which should not happen with a synthetic dataset. Example depth map:  
-`75\depth\depth0000109.png`.
+## Awesome Synthetic RGB-D Video Datasets for Training and Testing HD Video Depth Estimation Models
+The following list contains only synthetic RGB-D datasets in which at least some of the images can be composited into a video sequence of at least 32 frames. The minimum number of frames was chosen on the basis of the ablation studies shown in [Table 5](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html) by the Video Depth Anything researchers.  
+
+Most datasets contain ready-to-use video sequences of appropriately numbered images in individual folders, but in the case of the [PLT-D3](https://doi.org/10.7910/DVN/36SQKM) dataset, images from at least two folders have to be combined to make a longer video sequence and in the case of the [ClaraVid](https://rdbch.github.io/claravid/) dataset, images have to be arranged in the correct order to make a 32-frame video sequence, for example in the order given in [Appendix 4: Notes for "Awesome Synthetic RGB-D Video Datasets for Training and Testing HD Video Depth Estimation Models"](#appendix-4-notes-for-awesome-synthetic-rgb-d-video-datasets-for-training-and-testing-hd-video-depth-estimation-models).
+
+Researchers, if you are going to use the following list to select datasets to train your models check their quality very carefully and choose the best ones. I have only visually checked a few of them and have marked on the list 2 datasets to check particularly carefully and 2 datasets that in my opinion are not suitable for training video depth estimation models. I have given the reasons for such markings in the same [Appendix 4](#appendix-4-notes-for-awesome-synthetic-rgb-d-video-datasets-for-training-and-testing-hd-video-depth-estimation-models).
+
+In selecting the best datasets, comparisons of their quality can be very helpful, such as in [Table 9](https://proceedings.neurips.cc/paper_files/paper/2024/hash/26cfdcd8fe6fd75cc53e92963a656c58-Abstract-Conference.html), [Table 6](https://arxiv.org/abs/2509.12201), another [Table 6](https://openaccess.thecvf.com/content/CVPR2025/html/Jiang_MegaSynth_Scaling_Up_3D_Scene_Reconstruction_with_Synthesized_Data_CVPR_2025_paper.html) for depth estimation models and [TABLE V](https://arxiv.org/abs/2411.14053) plus [TABLE IV](https://arxiv.org/abs/2411.14053) for stereo matching models, although a similar technique can also be used for depth estimation models.
+
 |  | Dataset | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Resolution | [G<br />C](https://arxiv.org/abs/2504.01016 "GeometryCrafter") | [C<br />3<br />R](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Continuous_3D_Perception_Model_with_Persistent_State_CVPR_2025_paper.html "CUT3R") | [M<br />o<br />2](https://arxiv.org/abs/2507.02546 "MoGe-2") | [D<br />P](https://openreview.net/forum?id=aueXfY0Clv "Depth Pro") | [S<br />T<br />2](https://arxiv.org/abs/2507.12462 "SpatialTrackerV2") | [U<br />D<br />2](https://arxiv.org/abs/2502.20110 "UniDepthV2") | [V<br />D<br />A](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html "Video Depth Anything") | [D<br /><sup>2</sup><br />U](https://arxiv.org/abs/2504.06264 "D^2USt3R") | [P<br />O<br />M](https://arxiv.org/abs/2504.05692 "POMATO") | [R<br />D](https://openaccess.thecvf.com/content/CVPR2025/html/Ke_Video_Depth_without_Video_Models_CVPR_2025_paper.html "RollingDepth") | [B<br />o<br />T](https://arxiv.org/abs/2504.14516 "Back on Track") |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | **[OmniWorld-Game](https://yangzhou24.github.io/OmniWorld/)<br />📌&nbsp;18,515K&nbsp;frames&nbsp;😍** | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2509.12201) | **1280×720** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** | **-** |
@@ -76,9 +75,12 @@
 1. [**NYU-Depth V2: AbsRel<=0.051 (metric depth)**](#nyu-depth-v2-absrel0051-metric-depth)
 1. [**iBims-1: F-score>=0.303**](#ibims-1-f-score0303)
 ### Appendices
-- **Appendix 1: Rules for qualifying models for the rankings** (to do)
-- **Appendix 2: Metrics selection for the rankings** (to do)
-- [**Appendix 3: List of all research papers from the above rankings**](#appendix-3-list-of-all-research-papers-from-the-above-rankings)
+- **Appendix 1: Selection of rankings for this repository** (to do)
+- **Appendix 2: Selection of metrics for the rankings** (to do)
+- **Appendix 3: Rules for qualifying models for the rankings** (to do)
+- [**Appendix 4: Notes for "Awesome Synthetic RGB-D Video Datasets for Training and Testing HD Video Depth Estimation Models"**](#appendix-4-notes-for-awesome-synthetic-rgb-d-video-datasets-for-training-and-testing-hd-video-depth-estimation-models)
+- [**Appendix 5: List of all research papers from the above rankings**](#appendix-5-list-of-all-research-papers-from-the-above-rankings)
+- [**Appendix 6: List of other research papers**](#appendix-6-list-of-other-research-papers)
 
 --------------------
 
@@ -181,8 +183,56 @@
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
-## Appendix 3: List of all research papers from the above rankings
+## Appendix 4: Notes for "Awesome Synthetic RGB-D Video Datasets for Training and Testing HD Video Depth Estimation Models"
+📝 **Note 1:** Example of arranging images in the correct order to make a 32-frame video sequence for the [ClaraVid](https://rdbch.github.io/claravid/) dataset:
+```
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00360.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00320.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00280.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00240.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00200.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00160.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00120.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00080.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00040.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00000.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00001.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00002.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00003.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00004.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00005.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00006.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00007.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00008.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00009.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00010.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00011.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00012.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00013.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00014.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00015.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00016.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00017.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00018.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00019.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00059.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00099.jpg
+<your-data-path>/008_urban_dense_1/left_rgb/45deg_low_h/00139.jpg
+```
+📝 **Note 2:** Do not use the [SYNTHIA-Seqs](https://synthia-dataset.net/) dataset for training HD video depth estimation models! The depth maps in this dataset do not match the corresponding RGB images. This is particularly evident in the example of tree leaves:  
+`<your-data-path>/SYNTHIA-SEQS-01-SPRING/Depth/Stereo_Left/Omni_F/000071.png`  
+`<your-data-path>/SYNTHIA-SEQS-01-SPRING/RGB/Stereo_Left/Omni_F/000071.png`.  
+📝 **Note 3:** Do not use the [DigiDogs](https://cvssp.org/data/DigiDogs/) dataset for training HD video depth estimation models! The depth maps in this dataset do not match the corresponding RGB images. See the objects behind the campfire, the shifting position of the vegetation on the left and the clear banding on the depth map:  
+`<your-data-path>/DigiDogs2024_full/09_22_2022/00054/images/img_00012.tiff`.  
+📝 **Note 4:** Check before use the [SynDrone](https://github.com/LTTM/Syndrone) dataset for training HD video depth estimation models! The depth maps in this dataset have large white areas of unknown depth, which should not happen with a synthetic dataset. Example depth map:  
+`<your-data-path>/Town01_Opt_120_depth/Town01_Opt_120/ClearNoon/height20m/depth/00031.png`.  
+📝 **Note 5:** Check before use the [Aria Synthetic Environments](https://www.projectaria.com/datasets/ase/) dataset for training HD video depth estimation models! The depth maps in this dataset have large white areas of unknown depth, which should not happen with a synthetic dataset. Example depth map:  
+`<your-data-path>/75/depth/depth0000109.png`.
 
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
+
+## Appendix 5: List of all research papers from the above rankings
 | Method | Abbr. | Paper | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />(Alt link) | Official<br />&nbsp;&nbsp;repository&nbsp;&nbsp; |
 |:---:|:---:|:---:|:---:|:---:|
 | BetterDepth | BD | BetterDepth: Plug-and-Play Diffusion Refiner for Zero-Shot Monocular Depth Estimation | [![NeurIPS](https://img.shields.io/badge/2024-NeurIPS-68448a)](https://proceedings.neurips.cc/paper_files/paper/2024/hash/c4b652b7e228b18e1c65478da3a4a2cf-Abstract-Conference.html) | - |
@@ -215,7 +265,7 @@
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#monocular-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
-## List of other research papers
+## Appendix 6: List of other research papers
 📝 **Note:** This list includes the research papers of models that dropped out of the "Bonn RGB-D Dynamic ranking (5 video clips with 110 frames each): AbsRel" as a result of a change in the entry threshold for this ranking in August 2025 and are simultaneously ineligible for the other rankings.
 | Method | Abbr. | Paper | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />(Alt link) | Official<br />&nbsp;&nbsp;repository&nbsp;&nbsp; |
 |:---:|:---:|:---:|:---:|:---:|
