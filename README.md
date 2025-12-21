@@ -1,5 +1,30 @@
 # <p align=center>Video Depth Estimation Rankings<br />and 2D to 3D Video Conversion Rankings</p>
 
+**Researchers**, if you have found your way here, please consider developing a new 2D to 3D video conversion model with a resolution of 1080p and 24fps based on the **Wan2.5** backbone, which should soon be available to everyone. 
+
+Recently, three research papers describing new 2D to 3D video conversion models appeared almost simultaneously, including two based on the Wan2.1-T2V-1.3B backbone. Unfortunately, the low resolution of 480p and 16fps does not provide full immersion, despite the fact that the Wan backbone offers significantly higher quality than the Stable Video Diffusion (SVD) backbone - [see the comparison](https://github.com/Wan-Video/Wan2.2/blob/main/assets/vae.png). However, I must emphasise that I am very pleased that the new models are raising the bar in terms of quality once again. So pleased, in fact, that I want more...
+
+| backbone | open source | resolution | fps | video length | 2D to 3D video conversion models |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| [Wan2.1-T2V-1.3B](https://github.com/Wan-Video/Wan2.1) | Yes | 832×480 | 16 | 5s | [**StereoPilot**](https://hit-perfect.github.io/StereoPilot/)<br />[**StereoWorld**](https://ke-xing.github.io/StereoWorld/) |
+| [Wan2.2-TI2V-5B](https://github.com/Wan-Video/Wan2.2) | Yes | 1280×704 | 24 | 5s | - |
+| [Wan2.2-T2V-A14B](https://github.com/Wan-Video/Wan2.2) | Yes | 1280×720 | 16 | 5s | - |
+| Wan2.5 | Yes? | 1080p | 24 | 10s | - |
+| Wan2.6 | No | 1080p | 24 | 15s | - |
+
+The three most recent scientific papers from the list below have not yet been included in the rankings.
+
+| Method | Backbone | Submitted on (arXiv) | Paper | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />(Alt link) | Official<br />&nbsp;&nbsp;repository&nbsp;&nbsp; |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| StereoPilot | Wan2.1-T2V-1.3B | 18 Dec 2025 | StereoPilot: Learning Unified and Efficient Stereo Conversion via Generative Priors | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2512.16915) | [![GitHub Stars](https://img.shields.io/github/stars/KlingTeam/StereoPilot)](https://github.com/KlingTeam/StereoPilot) |
+| Elastic3D | SVD | 16 Dec 2025 | Elastic3D: Controllable Stereo Video Conversion with Guided Latent Decoding | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2512.14236) | - |
+| StereoWorld | Wan2.1-T2V-1.3B | 10 Dec 2025 | StereoWorld: Geometry-Aware Monocular-to-Stereo Video Generation | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2512.09363) | - |
+| M2SVid | SVD | 22 May 2025 | M2SVid: End-to-End Inpainting and Refinement for Monocular-to-Stereo Video Conversion | [![3DV](https://img.shields.io/badge/2026-3DV-8fcaff)](https://arxiv.org/abs/2505.16565) | - |
+| StereoCrafter | SVD | 11 Sep 2024 | StereoCrafter: Diffusion-based Generation of Long and High-fidelity Stereoscopic 3D from Monocular Videos | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447) | [![GitHub Stars](https://img.shields.io/github/stars/TencentARC/StereoCrafter)](https://github.com/TencentARC/StereoCrafter) |
+| SVG | Zeroscope | 29 Jun 2024 | SVG: 3D Stereoscopic Video Generation via Denoising Frame Matrix | [![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=sx2jXZuhIx) | [![GitHub Stars](https://img.shields.io/github/stars/google/Stereoscopic-Video-Generation-via-Denoising-Frame-Matrix)](https://github.com/google/Stereoscopic-Video-Generation-via-Denoising-Frame-Matrix) |
+
+--------------
+
 ## Awesome Synthetic RGB-D Image Datasets for Training HD Video Depth Estimation Models
 Although video depth estimation models should be trained mainly on synthetic RGB-D video datasets I decided to add two synthetic RGB-D image datasets because of their unique features. 
 |  | Dataset | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Resolution | Unique features |
