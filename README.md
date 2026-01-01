@@ -12,7 +12,7 @@ Recently, three research papers describing new 2D to 3D video conversion models 
 | Wan2.5 | Yes? | 1080p | 24 | 10s | - |
 | Wan2.6 | No | 1080p | 24 | 15s | - |
 
-The three most recent scientific papers from the list below have not yet been included in the rankings.
+The two most recent scientific papers from the list below have not yet been included in the rankings.
 
 | Method | Backbone | Submitted on (arXiv) | Paper | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />(Alt link) | Official<br />&nbsp;&nbsp;repository&nbsp;&nbsp; |
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -94,6 +94,7 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 
 ### 2D to 3D Video Conversion Rankings
 1. [**Stereo4D (400 video clips with 16 frames each at 5 fps): LPIPS<=0.242**](#stereo4d-400-video-clips-with-16-frames-each-at-5-fps-lpips0242)
+1. [**StereoWorld-11M (1000 video clips with 81 frames each at 12 fps): LPIPS<=0.1869**](#stereoworld-11m-1000-video-clips-with-81-frames-each-at-12-fps-lpips01869)
 ### Video Depth Estimation Rankings
 1. [**ScanNet (170 frames): TAE<=2.2**](#scannet-170-frames-tae22)
 1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): δ<sub>1</sub>>=0.979**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-δ10979)
@@ -120,6 +121,15 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 | 1 | **M2SVid**<br />[![3DV](https://img.shields.io/badge/2026-3DV-8fcaff)](https://arxiv.org/abs/2505.16565) | **0.180** {MF} |
 | 2 | **SVG**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=sx2jXZuhIx) [![GitHub Stars](https://img.shields.io/github/stars/google/Stereoscopic-Video-Generation-via-Denoising-Frame-Matrix)](https://github.com/google/Stereoscopic-Video-Generation-via-Denoising-Frame-Matrix) | **0.217** {MF} |
 | 3 | **StereoCrafter**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447) [![GitHub Stars](https://img.shields.io/github/stars/TencentARC/StereoCrafter)](https://github.com/TencentARC/StereoCrafter) | **0.242** {MF} |
+
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
+
+## StereoWorld-11M (1000 video clips with 81 frames each at 12 fps): LPIPS<=0.1869
+| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;LPIPS&nbsp;↓&nbsp;&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2512.09363)<br />Table 2<br />StereoWorld |
+|:---:|:---:|:---:|
+| 1 | **StereoWorld**<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2512.09363) | **0.0952** {MF} |
+| 2 | **StereoCrafter**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447) [![GitHub Stars](https://img.shields.io/github/stars/TencentARC/StereoCrafter)](https://github.com/TencentARC/StereoCrafter) | **0.1869** {MF} |
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
@@ -321,6 +331,7 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 | Pixel-Perfect Depth | PPD | Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers | [![NeurIPS](https://img.shields.io/badge/2025-NeurIPS-68448a)](https://arxiv.org/abs/2510.07316) | [![GitHub Stars](https://img.shields.io/github/stars/gangweix/pixel-perfect-depth)](https://github.com/gangweix/pixel-perfect-depth) |
 | SpatialTrackerV2 | ST2 | SpatialTrackerV2: 3D Point Tracking Made Easy | [![ICCV](https://img.shields.io/badge/2025-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2025/html/Xiao_SpatialTrackerV2_Advancing_3D_Point_Tracking_with_Explicit_Camera_Motion_ICCV_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/henry123-boy/SpaTrackerV2)](https://github.com/henry123-boy/SpaTrackerV2) |
 | StereoCrafter | - | StereoCrafter: Diffusion-based Generation of Long and High-fidelity Stereoscopic 3D from Monocular Videos | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447) | [![GitHub Stars](https://img.shields.io/github/stars/TencentARC/StereoCrafter)](https://github.com/TencentARC/StereoCrafter) |
+| StereoWorld | - | StereoWorld: Geometry-Aware Monocular-to-Stereo Video Generation | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2512.09363) | - |
 | SVG | - | SVG: 3D Stereoscopic Video Generation via Denoising Frame Matrix | [![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=sx2jXZuhIx) | [![GitHub Stars](https://img.shields.io/github/stars/google/Stereoscopic-Video-Generation-via-Denoising-Frame-Matrix)](https://github.com/google/Stereoscopic-Video-Generation-via-Denoising-Frame-Matrix) |
 | Uni4D | - | Uni4D: Unifying Visual Foundation Models for 4D Modeling from a Single Video | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Yao_Uni4D_Unifying_Visual_Foundation_Models_for_4D_Modeling_from_a_CVPR_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/Davidyao99/uni4d)](https://github.com/Davidyao99/uni4d) |
 | UniDepth | - | UniDepth: Universal Monocular Metric Depth Estimation | [![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Piccinelli_UniDepth_Universal_Monocular_Metric_Depth_Estimation_CVPR_2024_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth)](https://github.com/lpiccinelli-eth/UniDepth) |
