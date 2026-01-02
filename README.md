@@ -111,7 +111,6 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 - **Appendix 3: Rules for qualifying models for the rankings** (to do)
 - [**Appendix 4: Notes for "Awesome Synthetic RGB-D Video Datasets for Training and Testing HD Video Depth Estimation Models"**](#appendix-4-notes-for-awesome-synthetic-rgb-d-video-datasets-for-training-and-testing-hd-video-depth-estimation-models)
 - [**Appendix 5: List of all research papers from the above rankings**](#appendix-5-list-of-all-research-papers-from-the-above-rankings)
-- [**Appendix 6: List of other research papers**](#appendix-6-list-of-other-research-papers)
 
 --------------------
 
@@ -340,20 +339,6 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 | VGGT | - | VGGT: Visual Geometry Grounded Transformer | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VGGT_Visual_Geometry_Grounded_Transformer_CVPR_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/facebookresearch/vggt)](https://github.com/facebookresearch/vggt) |
 | Video Depth Anything | VDA | Video Depth Anything: Consistent Depth Estimation for Super-Long Videos | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Video-Depth-Anything)](https://github.com/DepthAnything/Video-Depth-Anything) |
 | π<sup>3</sup> | - | π<sup>3</sup>: Scalable Permutation-Equivariant Visual Geometry Learning | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2507.13347) | [![GitHub Stars](https://img.shields.io/github/stars/yyfz/Pi3)](https://github.com/yyfz/Pi3) |
-
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
-[![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
-
-## Appendix 6: List of other research papers
-📝 **Note:** This list includes the research papers of models that dropped out of the "Bonn RGB-D Dynamic ranking (5 video clips with 110 frames each): AbsRel" as a result of a change in the entry threshold for this ranking in August 2025 and are simultaneously ineligible for the other rankings.
-| Method | Abbr. | Paper | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />(Alt link) | Official<br />&nbsp;&nbsp;repository&nbsp;&nbsp; |
-|:---:|:---:|:---:|:---:|:---:|
-| Align3R | - | Align3R: Aligned Monocular Depth Estimation for Dynamic Videos | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Lu_Align3R_Aligned_Monocular_Depth_Estimation_for_Dynamic_Videos_CVPR_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/jiah-cloud/Align3R)](https://github.com/jiah-cloud/Align3R) |
-| CUT3R | C3R | Continuous 3D Perception Model with Persistent State | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Continuous_3D_Perception_Model_with_Persistent_State_CVPR_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/CUT3R/CUT3R)](https://github.com/CUT3R/CUT3R) |
-| Geo4D | - | Geo4D: Leveraging Video Generators for Geometric 4D Scene Reconstruction | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2504.07961) | [![GitHub Stars](https://img.shields.io/github/stars/jzr99/Geo4D)](https://github.com/jzr99/Geo4D) |
-| L4P | - | L4P: Low-Level 4D Vision Perception Unified | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2502.13078) | [![GitHub Stars](https://img.shields.io/github/stars/NVlabs/L4P)](https://github.com/NVlabs/L4P) |
-| MonST3R | - | MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion | [![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=lJpqxFgWCM) | [![GitHub Stars](https://img.shields.io/github/stars/Junyi42/monst3r)](https://github.com/Junyi42/monst3r) |
-| RollingDepth | RD | Video Depth without Video Models | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Ke_Video_Depth_without_Video_Models_CVPR_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/prs-eth/RollingDepth)](https://github.com/prs-eth/RollingDepth) |
 
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
