@@ -105,7 +105,6 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 1. [**NYU-Depth V2: δ<sub>1</sub>>=0.983**](#nyu-depth-v2-δ10983)
 1. [**NYU-Depth V2: AbsRel<=0.0421**](#nyu-depth-v2-absrel00421)
 1. [**NYU-Depth V2: AbsRel<=0.051 (metric depth)**](#nyu-depth-v2-absrel0051-metric-depth)
-1. [**iBims-1: F-score>=0.303**](#ibims-1-f-score0303)
 ### Appendices
 - **Appendix 1: Selection of rankings for this repository** (to do)
 - **Appendix 2: Selection of metrics for the rankings** (to do)
@@ -241,18 +240,6 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 [![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
-## iBims-1: F-score>=0.303
-| RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;F-score&nbsp;↑&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2502.20110)<br />TABLE I<br />UD2 | &nbsp;&nbsp;F-score&nbsp;↑&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Piccinelli_UniK3D_Universal_Camera_Monocular_3D_Estimation_CVPR_2025_paper.html)<br />Table 20<br />UniK3D |
-|:---:|:---:|:---:|:---:|
-| 1 | **UniDepthV2-Large**<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2502.20110) [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth)](https://github.com/lpiccinelli-eth/UniDepth) | **0.709** {1} | - |
-| 2 | **UniK3D-Large**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Piccinelli_UniK3D_Universal_Camera_Monocular_3D_Estimation_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniK3D)](https://github.com/lpiccinelli-eth/UniK3D) | - | **0.698** {1} |
-| 3 | **Depth Pro**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=aueXfY0Clv) [![GitHub Stars](https://img.shields.io/github/stars/apple/ml-depth-pro)](https://github.com/apple/ml-depth-pro) | **0.628** {1} | **0.628** {1} |
-| 4 | **MASt3R**<br />[![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/9080_ECCV_2024_paper.php) [![GitHub Stars](https://img.shields.io/github/stars/naver/mast3r)](https://github.com/naver/mast3r) | **0.557** {2} | **0.557** {2} |
-| 5 | **UniDepth**<br />[![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Piccinelli_UniDepth_Universal_Monocular_Metric_Depth_Estimation_CVPR_2024_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/lpiccinelli-eth/UniDepth)](https://github.com/lpiccinelli-eth/UniDepth) | **0.303** {1} | **0.303** {1} |
-
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
-[![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
-
 ## Appendix 4: Notes for "Awesome Synthetic RGB-D Video Datasets for Training and Testing HD Video Depth Estimation Models"
 📝 **Note 1:** Example of arranging images in the correct order to make a 32-frame video sequence for the [ClaraVid](https://rdbch.github.io/claravid/) dataset:
 ```
@@ -320,7 +307,6 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 | GeometryCrafter | GC | GeometryCrafter: Consistent Geometry Estimation for Open-world Videos with Diffusion Priors | [![ICCV](https://img.shields.io/badge/2025-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2025/html/Xu_GeometryCrafter_Consistent_Geometry_Estimation_for_Open-world_Videos_with_Diffusion_Priors_ICCV_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/TencentARC/GeometryCrafter)](https://github.com/TencentARC/GeometryCrafter) |
 | GRIN | - | GRIN: Zero-Shot Metric Depth with Pixel-Level Diffusion | [![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.09896) | - |
 | M2SVid | - | M2SVid: End-to-End Inpainting and Refinement for Monocular-to-Stereo Video Conversion | [![3DV](https://img.shields.io/badge/2026-3DV-8fcaff)](https://arxiv.org/abs/2505.16565) | - |
-| MASt3R | - | Grounding Image Matching in 3D with MASt3R | [![ECCV](https://img.shields.io/badge/2024-ECCV-67cd84)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/9080_ECCV_2024_paper.php) | [![GitHub Stars](https://img.shields.io/github/stars/naver/mast3r)](https://github.com/naver/mast3r) |
 | MegaSaM | - | MegaSaM: Accurate, Fast, and Robust Structure and Motion from Casual Dynamic Videos | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Li_MegaSaM_Accurate_Fast_and_Robust_Structure_and_Motion_from_Casual_CVPR_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/mega-sam/mega-sam)](https://github.com/mega-sam/mega-sam) |
 | Metric3D v2 | M3D v2 | Metric3D v2: A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation | [![TPAMI](https://img.shields.io/badge/2024-TPAMI-fefd02)](https://ieeexplore.ieee.org/document/10638254)<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2404.15506) | [![GitHub Stars](https://img.shields.io/github/stars/YvanYin/Metric3D)](https://github.com/YvanYin/Metric3D) |
 | Metric-Solver | MS | Metric-Solver: Sliding Anchored Metric Depth Estimation from a Single Image | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2504.12103) | [![GitHub Stars](https://img.shields.io/github/stars/Tele-AI/MetricSolver)](https://github.com/Tele-AI/MetricSolver) |
