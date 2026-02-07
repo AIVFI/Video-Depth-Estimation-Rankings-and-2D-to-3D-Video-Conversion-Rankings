@@ -99,7 +99,7 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 1. [**Stereo4D (400 video clips with 16 frames each at 5 fps): LPIPS<=0.242**](#stereo4d-400-video-clips-with-16-frames-each-at-5-fps-lpips0242)
 1. [**StereoWorld-11M (1000 video clips with 81 frames each at 12 fps): LPIPS<=0.1869**](#stereoworld-11m-1000-video-clips-with-81-frames-each-at-12-fps-lpips01869)
 ### Video Depth Estimation Rankings
-1. [**Infinigen: OPW<=0.039**](#infinigen-opw0039)
+1. [**Infinigen: OPW<=0.054**](#infinigen-opw0054)
 1. [**ScanNet (170 frames): TAE<=2.2**](#scannet-170-frames-tae22)
 1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): δ<sub>1</sub>>=0.979**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-δ10979)
 1. [**Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.052**](#bonn-rgb-d-dynamic-5-video-clips-with-110-frames-each-absrel0052)
@@ -123,7 +123,7 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 | 2 | **SVG**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=sx2jXZuhIx) [![GitHub Stars](https://img.shields.io/github/stars/google/Stereoscopic-Video-Generation-via-Denoising-Frame-Matrix)](https://github.com/google/Stereoscopic-Video-Generation-via-Denoising-Frame-Matrix) | **0.217** {MF} |
 | 3 | **StereoCrafter**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447) [![GitHub Stars](https://img.shields.io/github/stars/TencentARC/StereoCrafter)](https://github.com/TencentARC/StereoCrafter) | **0.242** {MF} |
 
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-stereo-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
 ## StereoWorld-11M (1000 video clips with 81 frames each at 12 fps): LPIPS<=0.1869
@@ -132,17 +132,18 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 | 1 | **StereoWorld**<br />[![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2512.09363) | **0.0952** {MF} |
 | 2 | **StereoCrafter**<br />[![arXiv](https://img.shields.io/badge/2024-arXiv-b31b1b)](https://arxiv.org/abs/2409.07447) [![GitHub Stars](https://img.shields.io/github/stars/TencentARC/StereoCrafter)](https://github.com/TencentARC/StereoCrafter) | **0.1869** {MF} |
 
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-stereo-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
-## Infinigen: OPW<=0.039
+## Infinigen: OPW<=0.054
 | RK | Model <br />*Links:*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;Repository&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;OPW&nbsp;↓&nbsp;&nbsp;<br />{Input&nbsp;fr.}<br />[![arXiv](https://img.shields.io/badge/2026-arXiv-b31b1b)](https://arxiv.org/abs/2601.02793)<br />Table 2<br />StableDPT |
 |:---:|:---:|:---:|
 | 1 | **StableDPT**<br />[![arXiv](https://img.shields.io/badge/2026-arXiv-b31b1b)](https://arxiv.org/abs/2601.02793) | **0.023** {MF} |
 | 2 | **VDA-L**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Video-Depth-Anything)](https://github.com/DepthAnything/Video-Depth-Anything) | **0.026** {MF} |
 | 3 | **Depth Anything V2 Large**<br />[![NeurIPS](https://img.shields.io/badge/2024-NeurIPS-68448a)](https://proceedings.neurips.cc/paper_files/paper/2024/hash/26cfdcd8fe6fd75cc53e92963a656c58-Abstract-Conference.html) [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Depth-Anything-V2)](https://github.com/DepthAnything/Depth-Anything-V2) | **0.039** {1} |
+| 4 | **FlashDepth**<br />[![ICCV](https://img.shields.io/badge/2025-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2025/html/Chou_FlashDepth_Real-time_Streaming_Video_Depth_Estimation_at_2K_Resolution_ICCV_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/Eyeline-Labs/FlashDepth)](https://github.com/Eyeline-Labs/FlashDepth) | **0.054** {MF} |
 
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-stereo-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
 ## ScanNet (170 frames): TAE<=2.2
@@ -155,7 +156,7 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 | 5 | **Depth Anything V2 Large**<br />[![NeurIPS](https://img.shields.io/badge/2024-NeurIPS-68448a)](https://proceedings.neurips.cc/paper_files/paper/2024/hash/26cfdcd8fe6fd75cc53e92963a656c58-Abstract-Conference.html) [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Depth-Anything-V2)](https://github.com/DepthAnything/Depth-Anything-V2) | **1.140** {1} |
 | 6 | **NVDS**<br />[![ICCV](https://img.shields.io/badge/2023-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Neural_Video_Depth_Stabilizer_ICCV_2023_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/RaymondWang987/NVDS)](https://github.com/RaymondWang987/NVDS) | **2.176** {4} |
 
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-stereo-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
 ## Bonn RGB-D Dynamic (5 video clips with 110 frames each): δ<sub>1</sub>>=0.979
@@ -171,7 +172,7 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 | 7 | **Depth Any Video**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=gWqFbnKsqR) [![GitHub Stars](https://img.shields.io/github/stars/Nightmare-n/DepthAnyVideo)](https://github.com/Nightmare-n/DepthAnyVideo) | - | - | **0.981** {MF} |
 | 8 | **DepthCrafter**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Hu_DepthCrafter_Generating_Consistent_Long_Depth_Sequences_for_Open-world_Videos_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/Tencent/DepthCrafter)](https://github.com/Tencent/DepthCrafter) | **0.979** {MF} | **0.976** {MF} | **0.979** {MF} |
 
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-stereo-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
 ## Bonn RGB-D Dynamic (5 video clips with 110 frames each): AbsRel<=0.052
@@ -190,7 +191,7 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 | 10 | **Depth Any Video**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=gWqFbnKsqR) [![GitHub Stars](https://img.shields.io/github/stars/Nightmare-n/DepthAnyVideo)](https://github.com/Nightmare-n/DepthAnyVideo) | - | - | - | - | **0.051** {MF} |
 | 11 | **VGGT**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VGGT_Visual_Geometry_Grounded_Transformer_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/facebookresearch/vggt)](https://github.com/facebookresearch/vggt) | **0.056** {MF} | - | **0.052** {MF} | **0.052** {MF} | - |
 
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-stereo-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
 ## DIODE: δ<sub>1</sub>>=0.953
@@ -202,7 +203,7 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 | 4 | **Depth Anything V2 Giant**<br />[![NeurIPS](https://img.shields.io/badge/2024-NeurIPS-68448a)](https://proceedings.neurips.cc/paper_files/paper/2024/hash/26cfdcd8fe6fd75cc53e92963a656c58-Abstract-Conference.html) [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Depth-Anything-V2)](https://github.com/DepthAnything/Depth-Anything-V2) | - | - | - | **0.954** {1} |
 | 5 | **VGGT**<br />[![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VGGT_Visual_Geometry_Grounded_Transformer_CVPR_2025_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/facebookresearch/vggt)](https://github.com/facebookresearch/vggt) | **0.953** {1} | - | - | - |
 
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-stereo-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
 ## NYU-Depth V2: δ<sub>1</sub>>=0.983
@@ -217,7 +218,7 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 | 6-7 | **Depth Anything Large**<br />[![CVPR](https://img.shields.io/badge/2024-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Depth_Anything_Unleashing_the_Power_of_Large-Scale_Unlabeled_Data_CVPR_2024_paper.html) [![GitHub Stars](https://img.shields.io/github/stars/LiheYoung/Depth-Anything)](https://github.com/LiheYoung/Depth-Anything) | **0,984** {1} | **0.984** {1} | - | **0.981** {1} | **0.981** {1} | **0.981** {1} |
 | 8 | **Depth Anything V2 Large**<br />[![NeurIPS](https://img.shields.io/badge/2024-NeurIPS-68448a)](https://proceedings.neurips.cc/paper_files/paper/2024/hash/26cfdcd8fe6fd75cc53e92963a656c58-Abstract-Conference.html) [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Depth-Anything-V2)](https://github.com/DepthAnything/Depth-Anything-V2) | **0,983** {1} | **0.983** {1} | **0.979** {1} | **0.979** {1} | - | **0.979** {1} |
 
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-stereo-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
 ## NYU-Depth V2: AbsRel<=0.0421
@@ -237,7 +238,7 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 | 10-12 | **Metric3D v2 ViT-Large**<br />[![TPAMI](https://img.shields.io/badge/2024-TPAMI-fefd02)](https://ieeexplore.ieee.org/document/10638254) [![GitHub Stars](https://img.shields.io/github/stars/YvanYin/Metric3D)](https://github.com/YvanYin/Metric3D) | **0.134** {1} | **0.134** {1} | - | **0.058** {1} | - | - | - | - | - | **0.042** {1} |
 | 13 | **Depth Pro**<br />[![ICLR](https://img.shields.io/badge/2025-ICLR-d5df32)](https://openreview.net/forum?id=aueXfY0Clv) [![GitHub Stars](https://img.shields.io/github/stars/apple/ml-depth-pro)](https://github.com/apple/ml-depth-pro) | **0.0421** {1} | - | - | **0.245** {1} | - | - | - | - | - | - |
 
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-stereo-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
 ## Appendix 4: Notes for "Awesome Synthetic RGB-D Video Datasets for Training and Testing HD Video Depth Estimation Models"
@@ -286,7 +287,7 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 📝 **Note 5:** Check before use the [Aria Synthetic Environments](https://www.projectaria.com/datasets/ase/) dataset for training HD video depth estimation models! The depth maps in this dataset have large white areas of unknown depth, which should not happen with a synthetic dataset. Example depth map:  
 `<your-data-path>/75/depth/depth0000109.png`.
 
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-stereo-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
 ## Appendix 5: List of all research papers from the above rankings
@@ -304,6 +305,7 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 | DepthCrafter | DC | DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Hu_DepthCrafter_Generating_Consistent_Long_Depth_Sequences_for_Open-world_Videos_CVPR_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/Tencent/DepthCrafter)](https://github.com/Tencent/DepthCrafter) |
 | Distill Any Depth | DAD | Distill Any Depth: Distillation Creates a Stronger Monocular Depth Estimator | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2502.19204) | [![GitHub Stars](https://img.shields.io/github/stars/Westlake-AGI-Lab/Distill-Any-Depth)](https://github.com/Westlake-AGI-Lab/Distill-Any-Depth) |
 | FE2E | - | From Editor to Dense Geometry Estimator | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2509.04338) | [![GitHub Stars](https://img.shields.io/github/stars/AMAP-ML/FE2E)](https://github.com/AMAP-ML/FE2E) |
+| FlashDepth | - | FlashDepth: Real-time Streaming Video Depth Estimation at 2K Resolution | [![ICCV](https://img.shields.io/badge/2025-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2025/html/Chou_FlashDepth_Real-time_Streaming_Video_Depth_Estimation_at_2K_Resolution_ICCV_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/Eyeline-Labs/FlashDepth)](https://github.com/Eyeline-Labs/FlashDepth) |
 | GeometryCrafter | GC | GeometryCrafter: Consistent Geometry Estimation for Open-world Videos with Diffusion Priors | [![ICCV](https://img.shields.io/badge/2025-ICCV-fcb900)](https://openaccess.thecvf.com/content/ICCV2025/html/Xu_GeometryCrafter_Consistent_Geometry_Estimation_for_Open-world_Videos_with_Diffusion_Priors_ICCV_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/TencentARC/GeometryCrafter)](https://github.com/TencentARC/GeometryCrafter) |
 | M2SVid | - | M2SVid: End-to-End Inpainting and Refinement for Monocular-to-Stereo Video Conversion | [![3DV](https://img.shields.io/badge/2026-3DV-8fcaff)](https://arxiv.org/abs/2505.16565) | - |
 | MegaSaM | - | MegaSaM: Accurate, Fast, and Robust Structure and Motion from Casual Dynamic Videos | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Li_MegaSaM_Accurate_Fast_and_Robust_Structure_and_Motion_from_Casual_CVPR_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/mega-sam/mega-sam)](https://github.com/mega-sam/mega-sam) |
@@ -325,7 +327,7 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 | Video Depth Anything | VDA | Video Depth Anything: Consistent Depth Estimation for Super-Long Videos | [![CVPR](https://img.shields.io/badge/2025-CVPR-1e407f)](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html) | [![GitHub Stars](https://img.shields.io/github/stars/DepthAnything/Video-Depth-Anything)](https://github.com/DepthAnything/Video-Depth-Anything) |
 | π<sup>3</sup> | - | π<sup>3</sup>: Scalable Permutation-Equivariant Visual Geometry Learning | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2507.13347) | [![GitHub Stars](https://img.shields.io/github/stars/yyfz/Pi3)](https://github.com/yyfz/Pi3) |
 
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-stereo-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
 
 ## List of research papers to be added to the rankings
@@ -337,5 +339,5 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 | Restereo | - | Restereo: Diffusion stereo video generation and restoration | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2506.06023) | - |
 | Eye2Eye | - | Eye2Eye: A Simple Approach for Monocular-to-Stereo Video Synthesis | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2505.00135) | - |
 
-[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-2d-to-3d-video-conversion-rankings)
+[![Back to Top](https://img.shields.io/badge/Back_to_Top-555555)](#video-depth-estimation-rankingsand-stereo-video-conversion-rankings)
 [![Back to the List of Rankings](https://img.shields.io/badge/Back_to_the_List_of_Rankings-555555)](#list-of-rankings)
