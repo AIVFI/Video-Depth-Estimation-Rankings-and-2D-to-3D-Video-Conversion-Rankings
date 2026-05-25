@@ -3,10 +3,11 @@
 **Researchers**, if you have found your way here, please consider developing a new Stereo Video Conversion model with a resolution of 1080p and 24fps based on the **Wan2.5** backbone, which should soon be available to everyone. 
 
 ## Awesome Stereo Video Conversion
-The following list includes **all Stereo Video Conversion methods from the last 10 months, from 1 April 2025 to 1 February 2026**.
+The following list includes **all Stereo Video Conversion methods from the last 13 months, from 1 April 2025 to 1 May 2026**.
 This list was created because there is a significant problem with public access to the latest Stereo Video Conversion models, which makes it difficult for researchers to compare their work with the current state of the art and to use the same test set. Consequently, this also makes it difficult to present a single ranking that showcases all of the best models.
 | Method | Backbone | Submitted&nbsp;on<br />(arXiv) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Official<br />&nbsp;&nbsp;repository&nbsp;&nbsp; | Code<br />(website) |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| DreamStereo | Wan2.1-1.3B | 14 Apr 2026 | [![arXiv](https://img.shields.io/badge/2026-arXiv-b31b1b)](https://arxiv.org/abs/2604.12270) | - | [![GitHub Stars](https://img.shields.io/github/stars/huangyuan2020/DreamStereo)](https://github.com/huangyuan2020/DreamStereo) |
 | HairGuard | Wan2.1-VACE-1.3B | 6 Jan 2026 | [![arXiv](https://img.shields.io/badge/2026-arXiv-b31b1b)](https://arxiv.org/abs/2601.03362) | - | - |
 | StereoPilot | Wan2.1-T2V-1.3B | 18 Dec 2025 | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2512.16915) | [![GitHub Stars](https://img.shields.io/github/stars/KlingTeam/StereoPilot)](https://github.com/KlingTeam/StereoPilot) | [![GitHub Stars](https://img.shields.io/github/stars/hit-perfect/StereoPilot)](https://github.com/hit-perfect/StereoPilot) |
 | Elastic3D | SVD | 16 Dec 2025 | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2512.14236) | - | [![GitHub Stars](https://img.shields.io/github/stars/elastic3d/elastic3d.github.io)](https://github.com/elastic3d/elastic3d.github.io) |
@@ -340,6 +341,7 @@ In selecting the best datasets, comparisons of their quality can be very helpful
 ## List of research papers to be added to the rankings
 | Method | Abbr. | Paper | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />(Alt link) | Official<br />&nbsp;&nbsp;repository&nbsp;&nbsp; |
 |:---:|:---:|:---:|:---:|:---:|
+| DreamStereo | - | DreamStereo: Towards Real-Time Stereo Inpainting for HD Videos | [![arXiv](https://img.shields.io/badge/2026-arXiv-b31b1b)](https://arxiv.org/abs/2604.12270) | - |
 | HairGuard | - | Guardians of the Hair: Rescuing Soft Boundaries in Depth, Stereo, and Novel Views | [![arXiv](https://img.shields.io/badge/2026-arXiv-b31b1b)](https://arxiv.org/abs/2601.03362) | - |
 | StereoPilot | - | StereoPilot: Learning Unified and Efficient Stereo Conversion via Generative Priors | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2512.16915) | [![GitHub Stars](https://img.shields.io/github/stars/KlingTeam/StereoPilot)](https://github.com/KlingTeam/StereoPilot) |
 | Elastic3D | - | Elastic3D: Controllable Stereo Video Conversion with Guided Latent Decoding | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2512.14236) | - |
