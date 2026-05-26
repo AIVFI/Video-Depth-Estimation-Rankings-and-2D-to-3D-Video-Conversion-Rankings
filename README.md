@@ -1,12 +1,13 @@
 # <p align=center>Video Depth Estimation Rankings<br />and Stereo Video Conversion Rankings</p>
 
-**Researchers**, if you have found your way here, please consider developing a new Stereo Video Conversion model with a resolution of 1080p and 24fps based on the **Wan2.5** backbone, which should soon be available to everyone. 
+**Researchers**, if you have found your way here, please consider developing a new Stereo Video Conversion model with a resolution of 1080p based, for example, on [LTX-2.3](https://github.com/Lightricks/LTX-2), taking into account the memory optimisations proposed by, for example, the [Wan2GP](https://github.com/deepbeepmeep/Wan2GP) developers.
 
 ## Awesome Stereo Video Conversion
-The following list includes **all Stereo Video Conversion methods from the last 13 months, from 1 April 2025 to 1 May 2026**.
+The following list includes **all Stereo Video Conversion methods from the last 14 months, from 1 April 2025 to 26 May 2026**.
 This list was created because there is a significant problem with public access to the latest Stereo Video Conversion models, which makes it difficult for researchers to compare their work with the current state of the art and to use the same test set. Consequently, this also makes it difficult to present a single ranking that showcases all of the best models.
 | Method | Backbone | Submitted&nbsp;on<br />(arXiv) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Official<br />&nbsp;&nbsp;repository&nbsp;&nbsp; | Code<br />(website) |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| StereoCrafter2 | Wan2.1-VACE-14B | - | - | [![GitHub Stars](https://img.shields.io/github/stars/TencentARC/StereoCrafter)](https://github.com/TencentARC/StereoCrafter/tree/v2) | - |
 | DreamStereo | Wan2.1-1.3B | 14 Apr 2026 | [![arXiv](https://img.shields.io/badge/2026-arXiv-b31b1b)](https://arxiv.org/abs/2604.12270) | - | [![GitHub Stars](https://img.shields.io/github/stars/huangyuan2020/DreamStereo)](https://github.com/huangyuan2020/DreamStereo) |
 | HairGuard | Wan2.1-VACE-1.3B | 6 Jan 2026 | [![arXiv](https://img.shields.io/badge/2026-arXiv-b31b1b)](https://arxiv.org/abs/2601.03362) | - | - |
 | StereoPilot | Wan2.1-T2V-1.3B | 18 Dec 2025 | [![arXiv](https://img.shields.io/badge/2025-arXiv-b31b1b)](https://arxiv.org/abs/2512.16915) | [![GitHub Stars](https://img.shields.io/github/stars/KlingTeam/StereoPilot)](https://github.com/KlingTeam/StereoPilot) | [![GitHub Stars](https://img.shields.io/github/stars/hit-perfect/StereoPilot)](https://github.com/hit-perfect/StereoPilot) |
