@@ -1,5 +1,10 @@
 # <p align=center>Video Depth Estimation Rankings<br />and Stereo Video Conversion Rankings</p>
 
+### Waiting list
+I won’t be able to update my repository in the coming days. However, I am reading all the issues and will certainly respond to them. I will also return to updating the repository and make a lot of changes to it in the near future. Due to a lack of time in the coming days, I am adding a temporary waiting list of video depth estimation models that should be included in the following rankings:
+1. [DVD](https://github.com/EnVision-Research/DVD)
+2. [ViGeo](https://github.com/aigc3d/ViGeo)
+
 **Researchers**, if you have found your way here, please consider developing a new Stereo Video Conversion model with a resolution of 1080p based, for example, on [LTX-2.3](https://github.com/Lightricks/LTX-2), taking into account the memory optimisations proposed by, for example, the [Wan2GP](https://github.com/deepbeepmeep/Wan2GP) developers.
 
 ## Awesome Stereo Video Conversion
